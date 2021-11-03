@@ -1,0 +1,52 @@
+.mainLogo {
+  flex: 1;
+  transition: ease all 0.5s;
+}
+
+.mainLogo img {
+  width: 50%;
+  height: 50%;
+  margin-left: 10%;
+  transition: ease all 0.5s;
+}
+
+.selfInfo ul {
+  font-size: smaller;
+  transition: ease all 0.5s;
+}
+
+.socialNets img {
+  width: 15%;
+  height: 15%;
+  transition: ease all 0.5s;
+}
+
+.whoAmI {
+  font-size: large;
+  transition: ease all 0.5s;
+}
+
+.sumInfo ul {
+  list-style-type: circle;
+  font-size: medium;
+  font-family: "Montserrat", sans-serif;
+  transition: ease all 0.5s;
+}
+
+#brain {
+  right: 62%;
+  top: 60px;
+  transition: ease all 0.5s;
+}
+
+#bag {
+  left: 10%;
+  bottom: 50px;
+  transition: ease all 0.5s;
+}
+
+#medicine {
+  right: 15%;
+  top: 220px;
+  transition: ease all 0.5s;
+}

@@ -1,0 +1,22 @@
+.whoAmI {
+  font-size: larger;
+  transition: ease all 0.5s;
+}
+
+#brain {
+    right: 62%;
+    top: 60px;
+    transition: ease all 0.5s;
+  }
+  
+  #bag {
+    left: 10%;
+    bottom: 50px;
+    transition: ease all 0.5s;
+  }
+  
+  #medicine {
+    right: 15%;
+    top: 220px;
+    transition: ease all 0.5s;
+  }

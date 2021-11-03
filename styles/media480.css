@@ -1,0 +1,27 @@
+.mainLogo {
+  flex: 1;
+  transition: ease all 0.5s;
+}
+
+.mainLogo img {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  transition: ease all 0.5s;
+}
+
+.selfInfo ul {
+  font-size: x-small;
+  transition: ease all 0.5s;
+}
+
+.socialNets img {
+  width: 20%;
+  height: 20%;
+  transition: ease all 0.5s;
+}
+
+.whoAmI {
+  font-size: small;
+  transition: ease all 0.5s;
+}
