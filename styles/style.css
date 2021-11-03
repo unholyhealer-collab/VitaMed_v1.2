@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
     box-sizing: border-box;
@@ -6,23 +6,35 @@
     padding: 0;
 }
 
-.navbar{
+body{
+    background-color: #eaf9ff;
+}
+
+nav{
+    position: fixed;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    transition: ease all 1s;
+}
+
+.sticky{
     background-color: #caf0ff;
     box-shadow: 0 10px 8px -6px #1285b5;
+    transition: ease all 1s;
 }
 
 .mainLogo{
     flex: 2;
+    transition: ease all 0.5s;
 }
 
 .mainLogo img{
     width: 25%;
     height: 25%;
     margin-left: 10%;
+    transition: ease all 0.5s;
 }
 
 .selfInfo, .socialNets{
@@ -37,7 +49,8 @@
 .selfInfo ul{
     list-style-type: none;
     font-size: medium;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    transition: ease all 0.5s;
 }
 
 .socialNets{
@@ -54,15 +67,58 @@
 }
 
 .socialNets img{
-    width: 10%;
-    height: 10%;
+    width: 13%;
+    height: 13%;
     border-radius: 50%;
+    transition: ease all 0.5s;
+}
+
+.firstMain{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.whoAmI{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    flex:  1;
+    padding-bottom: 10%;
+    transition: ease all 0.5s;
+}
+
+.whoAmI span{
+    font-weight: bold;
+    text-decoration: underline #1285b5;
+    text-underline-offset: 10px;
+}
+
+.doctor{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.doctor img{
+    max-width: 80%;
+    max-height: 80%;
 }
 
 @media screen and (max-width: 1024px) {
     .socialNets img{
         width: 15%;
         height: 15%;
+        transition: ease all 0.5s;
+    }
+
+    .whoAmI{
+        font-size: x-large;
         transition: ease all 0.5s;
     }
 }
@@ -90,6 +146,11 @@
         height: 15%;
         transition: ease all 0.5s;
     }
+
+    .whoAmI{
+        font-size: large;
+        transition: ease all 0.5s;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -113,6 +174,11 @@
     .socialNets img{
         width: 20%;
         height: 20%;
+        transition: ease all 0.5s;
+    }
+
+    .whoAmI{
+        font-size: x-small;
         transition: ease all 0.5s;
     }
 }
