@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #caf0ff;
+    box-shadow: 0 10px 8px -6px #1285b5;
+}
+
+.mainLogo{
+    flex: 2;
+}
+
+.mainLogo img{
+    width: 25%;
+    height: 25%;
+    margin-left: 10%;
+}
+
+.selfInfo, .socialNets{
+    flex: 1;
+}
+
+.selfInfo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.selfInfo ul{
+    list-style-type: none;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+.socialNets{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialNets #whatsapp{
+    margin-right: 20px;
+}
+
+.socialNets #instagram{
+    margin-right: 20%;
+}
+
+.socialNets img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .socialNets img{
+        width: 15%;
+        height: 15%;
+        transition: ease all 0.5s;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainLogo{
+        flex: 1;
+        transition: ease all 0.5s;
+    }
+
+    .mainLogo img{
+        width: 50%;
+        height: 50%;
+        margin-left: 10%;
+        transition: ease all 0.5s;
+    }
+
+    .selfInfo ul{
+        font-size: smaller;
+        transition: ease all 0.5s;
+    }
+
+    .socialNets img{
+        width: 15%;
+        height: 15%;
+        transition: ease all 0.5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mainLogo{
+        flex: 1;
+        transition: ease all 0.5s;
+    }
+
+    .mainLogo img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        transition: ease all 0.5s;
+    }
+
+    .selfInfo ul{
+        font-size: x-small;
+        transition: ease all 0.5s;
+    }
+
+    .socialNets img{
+        width: 20%;
+        height: 20%;
+        transition: ease all 0.5s;
+    }
+}
