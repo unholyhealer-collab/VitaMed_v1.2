@@ -1,4 +1,44 @@
 .whoAmI {
-    font-size: x-small;
-    transition: ease all 0.5s;
-  }
+  font-size: x-small;
+  transition: ease all 0.5s;
+}
+
+.anon {
+  font-size: small;
+  transition: ease all 0.5s;
+}
+
+.anon span{
+  padding: 15px 15px 15px 15px;
+  border-radius: 15px;
+}
+
+.sumInfo{
+  margin-top: 50px;
+  transition: ease all 0.5s;
+}
+
+.sumInfo ul {
+  list-style-type: circle;
+  font-size: x-small;
+  font-family: "Montserrat", sans-serif;
+  transition: ease all 0.5s;
+}
+
+#brain {
+  right: 80%;
+  top: 30px;
+  transition: ease all 0.5s;
+}
+
+#bag {
+  left: 10%;
+  bottom: 50px;
+  transition: ease all 0.5s;
+}
+
+#medicine {
+  right: 15%;
+  top: 220px;
+  transition: ease all 0.5s;
+}

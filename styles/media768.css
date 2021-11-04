@@ -26,6 +26,11 @@
   transition: ease all 0.5s;
 }
 
+.anon{
+  font-size: x-large;
+  transition: ease all 0.5s;
+}
+
 .sumInfo ul {
   list-style-type: circle;
   font-size: medium;
@@ -34,8 +39,11 @@
 }
 
 #brain {
-  right: 62%;
-  top: 60px;
+  right: 75%;
+  top: 50px;
+  width: 5%;
+  height: 5%;
+  box-shadow: 4px 4px 7px #1285b5;
   transition: ease all 0.5s;
 }
 

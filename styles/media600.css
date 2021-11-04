@@ -2,3 +2,41 @@
   font-size: medium;
   transition: ease all 0.5s;
 }
+
+.anon{
+  font-size: large;
+  transition: ease all 0.5s;
+}
+
+.sumInfo{
+  margin-top: 70px;
+  transition: ease all 0.5s;
+}
+
+.sumInfo ul {
+  list-style-type: circle;
+  font-size: small;
+  font-family: "Montserrat", sans-serif;
+  transition: ease all 0.5s;
+}
+
+#brain {
+  right: 75%;
+  top: 40px;
+  width: 5%;
+  height: 5%;
+  box-shadow: 4px 4px 7px #1285b5;
+  transition: ease all 0.5s;
+}
+
+#bag {
+  left: 10%;
+  bottom: 50px;
+  transition: ease all 0.5s;
+}
+
+#medicine {
+  right: 15%;
+  top: 220px;
+  transition: ease all 0.5s;
+}

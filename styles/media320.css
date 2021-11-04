@@ -1,4 +1,40 @@
+.selfInfo ul {
+  font-size: xx-small;
+  transition: ease all 0.5s;
+}
+
 .whoAmI {
   font-size: 8px;
+  transition: ease all 0.5s;
+}
+
+.anon {
+  font-size: small;
+  transition: ease all 0.5s;
+}
+
+.sumInfo ul {
+  list-style-type: circle;
+  font-size: 8px;
+  font-family: "Montserrat", sans-serif;
+  transition: ease all 0.5s;
+}
+
+#brain {
+  left: -84%;
+  top: 30px;
+  box-shadow: 2px 2px 7px #1285b5;
+  transition: ease all 0.5s;
+}
+
+#bag {
+  left: 10%;
+  bottom: 50px;
+  transition: ease all 0.5s;
+}
+
+#medicine {
+  right: 15%;
+  top: 220px;
   transition: ease all 0.5s;
 }
