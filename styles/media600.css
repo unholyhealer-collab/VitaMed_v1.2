@@ -50,3 +50,9 @@
   box-shadow: -4px 4px 7px #1285b5;
   transition: ease all 0.5s;
 }
+
+.slider{
+  height: 70%;
+  width: 70%;
+  padding-top: 20px;
+}
