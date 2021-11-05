@@ -10,13 +10,13 @@
   }
   
   #bag {
-    left: 10%;
-    bottom: 50px;
+    left: 5%;
+    bottom: 20px;
     transition: ease all 0.5s;
   }
   
   #medicine {
-    right: 15%;
-    top: 220px;
+    right: 25%;
+    top: 170px;
     transition: ease all 0.5s;
   }

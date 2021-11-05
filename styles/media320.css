@@ -1,3 +1,7 @@
+.firstMain {
+  padding-top: 50px;
+}
+
 .selfInfo ul {
   font-size: xx-small;
   transition: ease all 0.5s;
@@ -28,13 +32,15 @@
 }
 
 #bag {
-  left: 10%;
-  bottom: 50px;
+  left: 1%;
+  bottom: 10px;
+  box-shadow: 2px 2px 7px #1285b5;
   transition: ease all 0.5s;
 }
 
 #medicine {
-  right: 15%;
-  top: 220px;
+  right: 30%;
+  top: 70px;
+  box-shadow: -2px 2px 7px #1285b5;
   transition: ease all 0.5s;
 }
