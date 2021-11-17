@@ -19,3 +19,11 @@
 .seal > img {
   left: 25%;
 }
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 3px;
+  width: 340px;
+  top: 240px;
+  left: 8%;
+}

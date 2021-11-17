@@ -69,3 +69,15 @@
   bottom: 30px;
   transition: ease all 0.5s;
 }
+
+.carousel{
+  margin-top: 20px;
+}
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 2px;
+  width: 195px;
+  top: 195px;
+  left: 10%;
+}

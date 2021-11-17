@@ -56,3 +56,15 @@
   width: 70%;
   padding-top: 20px;
 }
+
+.carousel{
+  margin-top: 0px;
+}
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 2px;
+  width: 170px;
+  top: 140px;
+  left: 8%;
+}

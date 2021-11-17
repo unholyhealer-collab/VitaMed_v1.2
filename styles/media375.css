@@ -3,3 +3,11 @@
   top: 30px;
   transition: ease all 0.5s;
 }
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 2px;
+  width: 110px;
+  top: 115px;
+  left: 8%;
+}

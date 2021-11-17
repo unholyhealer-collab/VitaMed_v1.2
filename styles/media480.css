@@ -63,3 +63,11 @@
   left: 15%;
   transition: ease all 0.5s;
 }
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 2px;
+  width: 140px;
+  top: 130px;
+  left: 8%;
+}

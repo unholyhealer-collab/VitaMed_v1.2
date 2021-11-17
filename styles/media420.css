@@ -42,3 +42,11 @@
   top: 90px;
   transition: ease all 0.5s;
 }
+
+.hrDiv{
+  transition: ease all 0.5s;
+  height: 2px;
+  width: 107px;
+  top: 127px;
+  left: 10%;
+}
