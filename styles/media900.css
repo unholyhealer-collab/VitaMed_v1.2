@@ -20,3 +20,7 @@
     top: 170px;
     transition: ease all 0.5s;
   }
+
+  .seal > img {
+    left: 20%;
+  }

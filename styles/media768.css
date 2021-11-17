@@ -64,3 +64,8 @@
   box-shadow: -4px 4px 7px #1285b5;
   transition: ease all 0.5s;
 }
+
+.seal > img {
+  bottom: 30px;
+  transition: ease all 0.5s;
+}
