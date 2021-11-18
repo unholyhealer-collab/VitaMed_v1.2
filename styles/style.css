@@ -100,7 +100,7 @@ nav {
 .whoAmI span {
   font-weight: bold;
 }
-
+/*
 .hrDiv{
   height: 3px;
   width: 340px;
@@ -111,7 +111,7 @@ nav {
   left: 12%;
   transition: ease all 0.5s;
 }
-
+*/
 .doctor {
   display: flex;
   align-items: center;
