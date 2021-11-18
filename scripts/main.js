@@ -4,7 +4,7 @@ window.addEventListener('scroll', ()=>{
     navbar.classList.toggle('sticky', window.scrollY > 0);
 });
 */
-
+/*
 $(document).ready(function(){
     $('.slider').slick({
         infinite: true,
@@ -12,6 +12,7 @@ $(document).ready(function(){
         arrows: true
     });
 });
+*/
 
 const whatsapp = document.querySelector('#whatsapp');
 const instagram = document.querySelector('#instagram');
